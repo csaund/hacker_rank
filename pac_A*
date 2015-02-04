@@ -1,0 +1,11 @@
+def manhattan_dist(pac, food):
+    r1,c1 = pac
+    r2,c2 = food
+    return (abs(r1-r2) + abs(c1-c2))
+
+manhattan_dist((35,35),(35,1))
+
+
+
+if __name__ == "__main__":
+	
